@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Sockets;
 
-namespace Monitoring_Projektwoche_Arne_Marcel
+namespace xxxx
 {
     class Client
     {

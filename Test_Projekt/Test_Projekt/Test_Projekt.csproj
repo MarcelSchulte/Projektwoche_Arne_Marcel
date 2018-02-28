@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF41122A-583C-409A-B054-0A89FB17AFF5}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>Monitoring_Projektwoche_Arne_Marcel</RootNamespace>
-    <AssemblyName>Monitoring_Projektwoche_Arne_Marcel</AssemblyName>
+    <ProjectGuid>{58847201-94C1-49D3-A39F-622491F90108}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Test_Projekt</RootNamespace>
+    <AssemblyName>Test_Projekt</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -38,48 +38,12 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncTcpClient.cs" />
-    <Compile Include="AsyncTcpServer.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="ClientConnectedEventArgs.cs" />
-    <Compile Include="ClientDisconnectedEventArgs.cs" />
-    <Compile Include="frmMonitoring.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMonitoring.Designer.cs">
-      <DependentUpon>frmMonitoring.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PacketReceivedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMonitoring.resx">
-      <DependentUpon>frmMonitoring.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
