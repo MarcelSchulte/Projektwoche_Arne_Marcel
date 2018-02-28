@@ -59,6 +59,7 @@
     <Compile Include="PacketReceivedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadData.cs" />
     <EmbeddedResource Include="frmMonitoring.resx">
       <DependentUpon>frmMonitoring.cs</DependentUpon>
     </EmbeddedResource>

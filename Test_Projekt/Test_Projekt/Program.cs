@@ -28,7 +28,7 @@ namespace Test_Projekt
                 {
                     Console.WriteLine(d.DriveFormat);
 
-                    Console.WriteLine((d.Name + d.TotalFreeSpace / (1024 * 1024 * 1024)) + " GB von insgesamt " + (d.TotalSize / (1024 * 1024 * 1024)) + " GB frei.");
+                    Console.WriteLine(d.AvailableFreeSpace / 1024 / 1024 / 1024);
                 }
                 System.Threading.Thread.Sleep(3000);
             }
