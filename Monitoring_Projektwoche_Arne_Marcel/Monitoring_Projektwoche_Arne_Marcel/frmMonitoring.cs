@@ -16,5 +16,10 @@ namespace Monitoring_Projektwoche_Arne_Marcel
         {
             InitializeComponent();
         }
+
+        private void frmMonitoring_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
